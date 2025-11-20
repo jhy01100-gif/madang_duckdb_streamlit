@@ -57,8 +57,6 @@ except Exception as e:
 
 conn.close()
 
-!pip install streamlit duckdb pandas
-
 import streamlit as st
 import duckdb
 import pandas as pd
